@@ -12,7 +12,7 @@ date_time_now = now.strftime("%d%m%Y%H%M%S")
 resolution = (1920, 1080) 
 codec = cv2.VideoWriter_fourcc(*'mp4v') 
 filename = f'Recording{date_time_now}.mp4'
-fps = 60.0
+fps = 10.0
 
   
 out = cv2.VideoWriter(filename, codec, fps, resolution) 
